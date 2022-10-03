@@ -1,6 +1,7 @@
 {
   "name": "codeanywhere",
-  "version": "0.1.0",
+  "version": "0.0.1",
+  "description": "codeanywhere",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -37,5 +38,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "author": {
+    "name": "YoungStorage",
+    "email": "auth.youngstorage@gmail.com",
+    "url": "http://youngstorage.in/"
+  },
+  "copyright": "Copyright © 2022 ${author}",
+  "license": "MIT"
 }
