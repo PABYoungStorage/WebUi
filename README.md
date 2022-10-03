@@ -5,6 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+# Password Auth Token
+
+### `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`
 
 ### `npm start`
 
