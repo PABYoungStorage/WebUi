@@ -1,0 +1,366 @@
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.mainLogo {
+  width: 36%;
+}
+
+section.Solutions {
+  height: calc(100vh - 9vh);
+}
+
+.navigation {
+  background-color: #fff;
+  box-shadow: 0 5px 20px -10px #000;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3b065e;
+}
+
+.lister {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  /* min-height: 40px; */
+  padding: 0 2%;
+  width: 30%;
+  list-style: none;
+  color: #000;
+}
+
+.lister a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* home page  */
+
+.MainBanner {
+  background-color: #3b065e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 9vh);
+}
+
+.mainImg {
+  width: 94%;
+}
+
+.u-section-2 {
+  color: #fff;
+  font-size: 1.125rem;
+  width: 50%;
+  text-align: center;
+  margin: 3% auto;
+}
+
+.mainH1 {
+  letter-spacing: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.1;
+  text-transform: none;
+  margin: 0;
+  color: #ffffff !important;
+  word-wrap: break-word;
+  position: relative;
+}
+
+section.Solutions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.solutionImg {
+  width: 50%;
+}
+
+section.Solutions.man {
+  flex-direction: row-reverse;
+}
+
+.start {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+  outline: none;
+  padding: 7px 15px;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: capitalize;
+  border-radius: 4px;
+  background-color: #28b2d8;
+  color: #fff;
+  text-align: center;
+  margin: 2% auto;
+  cursor: pointer;
+}
+
+.form-data {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  height: 60vh;
+}
+
+.form-data input {
+  padding: 1%;
+  font-size: 21px;
+  margin: 1% 0;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.loginComp,
+.createAcc {
+  width: 50%;
+}
+
+.loginComp form,
+.createAcc form {
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+
+.signIn {
+  height: calc(100vh - 9vh);
+}
+
+.loginComp {
+  border-right: 1px dotted #fff;
+}
+
+.btn {
+  background-color: #3b065e;
+  color: #fff !important;
+}
+
+input:-internal-autofill-selected {}
+
+
+form h1,
+form h2 {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  width: 90%;
+  padding: 5% 0;
+}
+
+p.forgot {
+  font-size: 21px !important;
+  color: #3b065e;
+}
+
+.subText {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+a.launchDB {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+  outline: none;
+  padding: 7px 15px;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: capitalize;
+  border-radius: 4px;
+  background-color: #3b065e;
+  color: #fff;
+  text-align: center;
+  margin: 2% auto;
+  text-decoration: none;
+}
+
+section.MainBanner.VPN {
+  background: #333333;
+}
+
+img.boxImg {
+  width: 250px;
+}
+
+.boxArea,
+.boxArea div {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+
+  align-items: center;
+}
+
+.boxArea {
+  flex-direction: column !important;
+}
+
+.boxArea a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+button.pageTitle.start {
+  /* background-color: #4f32e0 */
+}
+
+.labMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labMain button {
+  margin: 0 20px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+.labMain button img {
+  width: 22%;
+}
+
+.forgot{
+  cursor: pointer;
+}
+
+/* Modal CSS */
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  /* border: 1px solid #888; */
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #3b065e;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #3b065e;
+  color: white;
+}
+
+.bg-image {
+  /* The image used */
+  /* background-image: url("photographer.jpg"); */
+  background-color: #000;
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reverse{
+  flex-direction: row-reverse;
+  /* background-color: #1f9cf0 !important; */
+  background-color: #fff;
+}
+
+.reverse .u-section-2  ,.reverse .mainH1{
+color: #0065a9 !important;
+}
+
+.reverse .mainImg{
+  width: 100%;
+}
+
+/* table  */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 55%;
+  margin: 4% auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
